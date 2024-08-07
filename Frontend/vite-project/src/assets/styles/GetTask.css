@@ -1,0 +1,47 @@
+/* src/assets/styles/GetTasks.css */
+
+.get-tasks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Center vertically */
+    background-color: #f0f2f5; /* Light background color */
+  }
+  
+  .tasks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between cards */
+    width: 100%;
+    max-width: 700px; /* Maximum width for cards */
+    padding: 20px;
+  }
+  
+  .task-card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .task-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  .task-card h3 {
+    margin-top: 0;
+    color: #333; /* Dark text color */
+  }
+  
+  .task-card p {
+    margin: 5px 0;
+    color: #555; /* Slightly lighter text color */
+  }
+  
+  .task-card .priority {
+    font-weight: bold;
+  }
+  
