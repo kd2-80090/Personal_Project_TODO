@@ -1,0 +1,42 @@
+/* HomePage Styles */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff4e6; /* Light yellow background */
+  }
+  
+  .home-page h1 {
+    font-size: 2rem;
+    color: #f4a300; /* Dark yellow/orange color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .home-page p {
+    font-size: 1.2rem;
+    color: #333; /* Dark text color for readability */
+    margin-bottom: 30px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-button {
+    background-color: #f4a300; /* Dark yellow/orange button background */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #e89e00; /* Slightly darker yellow/orange on hover */
+  }
+  

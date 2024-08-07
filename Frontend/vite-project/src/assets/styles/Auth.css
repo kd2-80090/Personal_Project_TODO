@@ -1,0 +1,62 @@
+/* src/components/auth.css */
+.auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff4e6; /* Light yellow background */
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f4a300; /* Dark yellow/orange color */
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container label {
+  margin-bottom: 5px; /* Space between label and input field */
+  font-weight: bold;
+  color: #f4a300; /* Dark yellow/orange color */
+}
+
+.auth-container input,
+.auth-container textarea {
+  margin-bottom: 15px; /* Space between input fields */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px; /* Consistent font size */
+  box-sizing: border-box; /* Ensures padding and border are included in width */
+  background: #fff; /* White background for input fields */
+}
+
+.auth-container textarea {
+  resize: vertical; /* Allows vertical resizing only */
+}
+
+.auth-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #f4a300; /* Dark yellow/orange background */
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px; /* Consistent font size */
+  box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+.auth-container button:hover {
+  background: #e89e00; /* Slightly darker yellow/orange for hover effect */
+}
+
+.error {
+  color: #e74c3c; /* Red color for error messages */
+  text-align: center;
+  margin-top: 10px; /* Space above the error message */
+}
